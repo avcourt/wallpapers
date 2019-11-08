@@ -1,4 +1,7 @@
 Almost all are 2K but some are 1080p. There's a couple oddball resolutions but they are >2K.
+
+This rep0 was generated automatically using a script I wrote which can be found ![here](https://github.com/avcourt/wallamaker).
+
 ![contact sheet](contact-sheet.gif)
 ### city-2435346.gif
 ![city-2435346.gif](thumbs/city-2435346.gif)
