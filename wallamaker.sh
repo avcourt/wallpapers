@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RES=400 # max thumb resolution, if you are running out of memory and
+RES=500 # max thumb resolution, if you are running out of memory and
         # mogrify or montage is failing, try lowering this value.
 
 echo "Checking directory structure."
@@ -25,10 +25,10 @@ echo "Generating contact sheet"
 montage thumbs/* contact-sheet.jpg
 
 echo "Generating README"
-echo "![contact sheet](contact-sheet.jpg)" >> README.md
+printf "![contact sheet](contact-sheet.jpg)\n" >> README.md
 for image in hi_res/*
 do
-    echo "### $image}" >> README.md
-    echo "![$image]($image)" >> README.md
-    echo "***" >> README.md
+    printf "\n### [$image]($image)*\n" >> README.md
+    printf "\n![$image]($image)\n" >> README.md
+    printf "\n***\n" >> README.md
 done
