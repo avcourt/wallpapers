@@ -28,7 +28,7 @@ echo "Generating README"
 printf "![contact sheet](contact-sheet.jpg)\n" >> README.md
 for image in hi_res/*
 do
-    printf "\n### [$image]($image)*\n" >> README.md
+    printf "\n### [$image]($image)\n" >> README.md
     printf "\n![$image]($image)\n" >> README.md
     printf "\n***\n" >> README.md
 done
