@@ -6,6 +6,8 @@ This repository was generated automatically using the `wallamaker.sh` script I w
 
 The images embedded in this README are full resolution so you can `right-click->save_as` the ones you like directly from this README if you'd rather not clone the entire repo.
 
+No artist information was collected. 
+
 ![contact sheet](contact-sheet.jpg)
 
 ### [hi_res/110292-purple-violet-blue-black-fractal_art-2560x1440.jpg](hi_res/110292-purple-violet-blue-black-fractal_art-2560x1440.jpg)
